@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.1.0
+  flutter_screenutil: ^5.9.3
+  intl: ^0.20.2
+  provider: ^6.1.5
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,19 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: MonaSans
+      fonts:
+        - asset: assets/fonts/MonaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MonaSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/MonaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MonaSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MonaSans-Light.ttf
+          weight: 300
+  assets:
+    - assets/home/
+    - assets/splashscreen/
