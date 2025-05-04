@@ -59,12 +59,6 @@ class _WeeklyPagerState extends State<WeeklyPager> {
                     child: GestureDetector(
                       onTap: () {
                         provider.selectDate(date);
-                        // Navigator.push(
-                        //   context,
-                        //   MaterialPageRoute(
-                        //     builder: (_) => DayDetailScreen(date: date),
-                        //   ),
-                        // );
                       },
                       child: Padding(
                         padding:

@@ -17,7 +17,7 @@ class WeeklyPagerProvider extends ChangeNotifier {
 
   int get currentWeekPageIndex {
     final diffDays = _selectedDate.difference(
-      _weekStart.subtract(Duration(days: bufferWeeks * 7)),
+      _weekStart.subtract(const Duration(days: bufferWeeks * 7)),
     ).inDays;
     return diffDays ~/ 7;
   }
