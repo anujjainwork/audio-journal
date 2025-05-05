@@ -39,7 +39,7 @@ dependencies:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/audio-journal.git
+git clone https://github.com/anujjainwork/audio-journal.git
 cd audio-journal
 ```
 
