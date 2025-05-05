@@ -2,6 +2,12 @@
 
 Audio Journal is a cross-platform Flutter application that lets users record, save, and revisit their daily goals through voice journaling. Designed for personal growth, it offers an intuitive interface and local audio storage.
 
+## Download APK file from Google Drive 📥
+
+[![Download Audio Journal APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://drive.google.com/drive/folders/1ZBxK4timheVkNNsx5rEtqf1gLIcfEnRJ?usp=sharing)
+
+---
+
 ## Features
 
 - Record and replay daily voice journals.
@@ -53,6 +59,9 @@ flutter run
 
 ## Screen recording of the app flow
 [![Watch the video](https://img.youtube.com/vi/30D0DAFxXNo/hqdefault.jpg)](https://youtube.com/shorts/30D0DAFxXNo)
+
+## Additional notes
+![Additional notes](readme_assets/arre_additional.png)
 
 ---
 
