@@ -11,7 +11,7 @@ Widget getCustomTextBold({
     text,
     textAlign: textAlign,
     style: TextStyle(
-      letterSpacing: 0.02.w,
+      letterSpacing: -0.5.w,
       color: textColor,
       fontSize: textSize,
       fontFamily: 'MonaSans',
@@ -54,6 +54,25 @@ Widget getCustomTextMedium({
       fontSize: textSize,
       fontFamily: 'MonaSans',
       fontWeight: FontWeight.w600,
+    ),
+  );
+}
+
+Widget getCustomTextNormal({
+  required String text,
+  Color textColor = Colors.black,
+  required double textSize,
+  TextAlign textAlign = TextAlign.center
+}) {
+  return Text(
+    text,
+    textAlign: textAlign,
+    style: TextStyle(
+      letterSpacing: 0.02.w,
+      color: textColor,
+      fontSize: textSize,
+      fontFamily: 'MonaSans',
+      fontWeight: FontWeight.w400,
     ),
   );
 }

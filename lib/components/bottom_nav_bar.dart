@@ -72,14 +72,14 @@ class BottomNavBar extends StatelessWidget {
     return GestureDetector(
       onTap: function,
       child: Container(
-        width: 50.w,
-        height: 50.w,
+        width: 56.w,
+        height: 56.w,
         decoration: const BoxDecoration(
           shape: BoxShape.circle,
           color: darkgreenish,
         ),
-        child: const Center(
-          child: Icon(Icons.add, color: Colors.white),
+        child: Center(
+          child: Icon(Icons.add, color: Colors.white, size: 27.sp),
         ),
       ),
     );
