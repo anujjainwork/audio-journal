@@ -55,6 +55,7 @@ flutter run
 
 
 ## Project structure
+While a clean architecture could have been implemented, I chose to keep the structure simpler for now to avoid unnecessary complexity, especially since the app currently functions entirely offline.
 ![File structure](readme_assets/structure.png)
 
 ## Screen recording of the app flow
